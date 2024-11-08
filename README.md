@@ -24,10 +24,7 @@ GOOD LUCK!
 
 _Note: If you have been using the same Jenkins server from previous projects, Jenkins may run out of volume. In that case, go to AWS console, select Jenkins instance, click volume under Storage section. Acions --> Modify Volume. Increase volume form 8 to 16 GB._
 
-Go to source code, we will use files under `cicd-kube` branch from below repository:
-```sh
-https://github.com/devopshydclub/vprofile-project.git
-```
+
 #### Jenkins-Sonar Integration
 
 So far we should have 3 running servers(Jenkins, Sonar and kOps) with proper configuration setup from previous steps as mentioned in pre-requisites.
