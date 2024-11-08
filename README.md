@@ -31,7 +31,6 @@ So far we should have 3 running servers(Jenkins, Sonar and kOps) with proper con
 
 First we will create a new token in Sonar server.
 
-![](images/sonar-token.png)
 
 Go to Jenkins server, `Manage Jenkins` -> `Configure System` . Find section named as  `SonarQube Servers`.
 ```sh
@@ -58,7 +57,6 @@ We need to add our DockerHub credentials to Jenkins.( _PS: If you don't have an 
 
 Go to `Manage Jenkins` -> `Manage Credentials` -> `Add credentials`. As ID we will give `dockerhub` which is used in Jenkinsfile.
 
-![](images/dockerhub-creds.png)
 
 #### Install Docker engine in Jenkins server
 
